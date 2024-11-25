@@ -1,0 +1,12 @@
+names:
+  - drink
+  - sandwich
+  - biscuit
+  - cake
+nc: 4
+train: data/food_data/train/images
+val: data/food_data/val/images
+
+#训练数据集：python train.py --batch-size 4 --epochs 200 --data data/food_data/food_data.yaml --weights weights/yolov5s.pt
+# python detect.py --source data\food_data\test\1.jpg --weights runs\train\exp6\weights\best.pt
+# 注意name的顺序一定要和classes的顺序一致！！！
