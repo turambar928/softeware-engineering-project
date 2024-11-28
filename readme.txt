@@ -31,3 +31,6 @@ user：航空公司
 第三周：先构建后端数据集，照片自己生成，采购相应物资（餐车、餐盒、餐盘、红外等）
 	使用yolov5搭建识别框架：1. 黑白图像识别问题；2. 食材大小确定问题；3. use case model\功能建模、行为建模、数据建模
 
+训练完毕的模型存放在yolov5训练模型文件夹中，根据readme文件可将其复制到本地用于识别
+航空餐食后端代码仓库url：https://github.com/turambar928/Backend-of-Aviation-Meal-Management-System
+
